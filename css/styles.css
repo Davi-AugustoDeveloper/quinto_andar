@@ -1,0 +1,143 @@
+.html, body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;  
+    position: relative;
+    padding-top: 50px;
+}
+
+
+.header-top {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #f4f5f5;
+    position: fixed;
+    margin-top: -5;
+    margin-left: -10px;
+    background-color: #fff;
+    z-index: 9;
+}
+
+.logo-top img {
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-top: -25px;
+    position: absolute;
+}
+
+.home-top {
+    float: right;
+    
+}
+
+.home-top ul li {
+    font-size: 18px;
+    text-align: right;
+    display: inline-block;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.home-top ul i  {
+    color: #1591cb;
+    width: 60px;
+    height: 60px;
+}
+
+.home- ul i:hover {
+    cursor: pointer;
+    background-color: #B9C1F2;
+    border-radius: 50px;
+}
+
+/*.fa:hover {
+    cursor: pointer;
+    background-color: #B9C1F2;
+    border-radius: 50px;
+    margin-left: 20px;
+}*/
+
+.busca-ap {
+    text-align: center;
+}
+
+.busca-ap h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.busca-ap h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -15px;
+    color: #aaa;
+    font-weight: 400;
+}
+.formulario {
+    width: 800px;
+    margin: 0 auto;
+}
+.cidade {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 24px;
+}
+.bairro, .aluguel, .quartos {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    width: 30%;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.aluguel, .quartos {
+    margin-left:4.5%;
+}
+
+.botao {
+    display: block;
+    width: 180px;
+    height: 60px;
+    margin: 30px auto;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1591cb;
+    color: #fff;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #1932cf;
+}
+
+.divider {
+    border: 3px solid #f4f5f5;
+    border-radius: 5px;
+    margin: 30px auto;
+    width: 75px;
+}
+
+.proprietario {
+    text-align: center;
+    color: #1591cb;
+    text-transform: uppercase;
+}
+
+.proprietario:hover {
+    background-color: #B9C1F2;
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.img-roda img {
+    width: 100%;
+    margin-top: 100px; 
+}
